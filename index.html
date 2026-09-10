@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Hendro Paulus, Full Stack Web Developer from Tangerang, Indonesia.">
+  <meta name="theme-color" content="#0b0d12">
+  <title>Hendro Paulus — Full Stack Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-mark">&lt;H/&gt;</span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="container">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-8">
+            <div class="status-pill reveal">
+              <span class="status-dot"></span>
+              Based in Tangerang, Indonesia
+            </div>
+
+            <p class="eyebrow reveal delay-1">HELLO, WORLD. I'M</p>
+            <h1 class="display-title reveal delay-2">
+              Hendro<br>
+              <span>Paulus.</span>
+            </h1>
+
+            <p class="hero-copy reveal delay-3">
+              Full Stack Web Developer building internal systems, APIs, automation,
+              dashboards, and the occasional bug that swears it worked yesterday.
+            </p>
+
+            <div class="hero-actions reveal delay-4">
+              <a href="#work" class="btn btn-main">
+                See my work <i class="bi bi-arrow-down-right"></i>
+              </a>
+              <a href="mailto:hendrosinambela19@gmail.com" class="btn btn-ghost">
+                Say hello
+              </a>
+            </div>
+
+            <div class="hero-meta reveal delay-4">
+              <span>NODE.JS</span><span>EXPRESS</span><span>ADONISJS</span><span>VUE 3</span><span>MYSQL</span><span>DOCKER</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="terminal-card reveal delay-3">
+              <div class="terminal-head">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="terminal-body">
+                <p><span class="prompt">$</span> whoami</p>
+                <p class="terminal-output">hendro-paulus</p>
+                <p><span class="prompt">$</span> cat role.txt</p>
+                <p class="terminal-output">Full Stack Web Developer</p>
+                <p><span class="prompt">$</span> uptime</p>
+                <p class="terminal-output">still debugging...</p>
+                <p><span class="prompt">$</span> coffee --status</p>
+                <p class="terminal-output blink-line">essential_</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-grid"></div>
+    </section>
+
+    <section id="about" class="section-pad border-section">
+      <div class="container">
+        <div class="section-kicker reveal">01 / ABOUT</div>
+
+        <div class="row gy-5 align-items-start">
+          <div class="col-lg-5">
+            <h2 class="section-title reveal">
+              This is about me.<br>
+              <span class="muted-joke">As for her... she's already with someone else.</span>
+            </h2>
+          </div>
+
+          <div class="col-lg-7">
+            <p class="lead-copy reveal">
+              I'm a Full Stack Web Developer focused on building practical systems that make
+              real business processes faster, cleaner, and easier to monitor.
+            </p>
+            <p class="body-copy reveal">
+              My day-to-day work spans backend architecture, database design, API integrations,
+              automation, dashboards, internal authentication, and production support. I enjoy
+              turning messy operational flows into systems people can actually use.
+            </p>
+
+            <div class="about-grid reveal">
+              <div>
+                <span class="mini-label">CURRENTLY</span>
+                <strong>Web Developer</strong>
+                <small>PT. Surya Dermato Medica Laboratories</small>
+              </div>
+              <div>
+                <span class="mini-label">EDUCATION</span>
+                <strong>Full Stack JavaScript</strong>
+                <small>Hacktiv8, 2023</small>
+              </div>
+              <div>
+                <span class="mini-label">FOCUS</span>
+                <strong>Internal Systems</strong>
+                <small>Automation · APIs · Data</small>
+              </div>
+              <div>
+                <span class="mini-label">PHILOSOPHY</span>
+                <strong>Useful beats flashy.</strong>
+                <small>But nice UI doesn't hurt.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section-pad">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-end mb-5">
+          <div>
+            <div class="section-kicker reveal">02 / SELECTED WORK</div>
+            <h2 class="section-title reveal">Things I've built.</h2>
+          </div>
+          <div class="d-none d-md-block text-end reveal">
+            <span class="mini-label">NOT JUST TODO APPS</span>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <div class="project-top">
+                <h3>Sales Visit Management System</h3>
+                <span class="project-type">Enterprise Internal System</span>
+              </div>
+              <p>
+                Nationwide sales visit platform covering planning, approval workflows,
+                visit validation, photo evidence, digital signatures, dashboards, and
+                biometric attendance integration.
+              </p>
+              <div class="tech-list">
+                <span>Node.js</span><span>Express</span><span>EJS</span><span>MySQL</span><span>Sequelize</span><span>Google Drive API</span>
+              </div>
+            </div>
+            <div class="project-icon"><i class="bi bi-arrow-up-right"></i></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <div class="project-top">
+                <h3>Internal Automation & Reporting Platform</h3>
+                <span class="project-type">Business Automation</span>
+              </div>
+              <p>
+                Workflow automation and operational reporting modules for data synchronization,
+                scheduled jobs, recurring internal processes, and reduced manual work.
+              </p>
+              <div class="tech-list">
+                <span>n8n</span><span>Node.js</span><span>REST API</span><span>Cron Jobs</span><span>MySQL</span>
+              </div>
+            </div>
+            <div class="project-icon"><i class="bi bi-arrow-up-right"></i></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <div class="project-top">
+                <h3>Single Sign-On & API Integration</h3>
+                <span class="project-type">Authentication Platform</span>
+              </div>
+              <p>
+                Internal authentication layer connecting multiple applications with secure REST APIs,
+                token-based authentication, JWT, and Redis.
+              </p>
+              <div class="tech-list">
+                <span>JWT</span><span>Redis</span><span>Node.js</span><span>REST API</span>
+              </div>
+            </div>
+            <div class="project-icon"><i class="bi bi-arrow-up-right"></i></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">04</div>
+            <div class="project-content">
+              <div class="project-top">
+                <h3>Operational Automation Tools</h3>
+                <span class="project-type">Banking Operations</span>
+              </div>
+              <p>
+                Small automation tools created to speed up repetitive banking operations,
+                improve data accuracy, and reduce manual administrative work.
+              </p>
+              <div class="tech-list">
+                <span>VBA Macro</span><span>Batch Script</span><span>Power Automate</span><span>UiPath</span>
+              </div>
+            </div>
+            <div class="project-icon"><i class="bi bi-arrow-up-right"></i></div>
+          </article>
+        </div>
+
+        <p class="work-note reveal">
+          Some projects are internal company systems, so screenshots and source code stay private.
+          The bugs, unfortunately, know too much.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section-pad border-section">
+      <div class="container">
+        <div class="section-kicker reveal">03 / EXPERIENCE</div>
+        <h2 class="section-title reveal mb-5">Where I've been.</h2>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2023 — PRESENT</div>
+            <div class="timeline-content">
+              <h3>Web Developer <span>@ PT. Surya Dermato Medica Laboratories</span></h3>
+              <p>
+                Developing and maintaining internal web applications, monitoring dashboards,
+                operational reports, asset management, stock monitoring, Google Drive integrations,
+                SSO APIs, automation workflows, and biometric attendance integrations.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2019 — 2023</div>
+            <div class="timeline-content">
+              <h3>Support <span>@ PT. Bank Central Asia Tbk · Outsourced</span></h3>
+              <p>
+                Banking operations support plus internal automation using VBA, Batch scripts,
+                Power Automate, UiPath monitoring, and office hardware troubleshooting.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-period">2017 — 2019</div>
+            <div class="timeline-content">
+              <h3>Front Office <span>@ PT. Bank Central Asia Tbk · Outsourced</span></h3>
+              <p>
+                Document registration, data entry, balancing, validation, and structured
+                distribution for banking operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad">
+      <div class="container">
+        <div class="section-kicker reveal">04 / STACK</div>
+        <div class="row gy-5">
+          <div class="col-lg-5">
+            <h2 class="section-title reveal">Tools I trust.<br><span class="text-accent">Most of the time.</span></h2>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="skill-group reveal">
+              <span class="skill-group-title">BACKEND & FRONTEND</span>
+              <div class="skill-cloud">
+                <span>JavaScript</span><span>Node.js</span><span>Express</span><span>AdonisJS v6</span>
+                <span>Vue 3</span><span>Inertia</span><span>EJS</span><span>Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <span class="skill-group-title">DATABASE & DATA</span>
+              <div class="skill-cloud">
+                <span>MySQL</span><span>ClickHouse</span><span>PostgreSQL</span><span>Redis</span><span>Sequelize</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <span class="skill-group-title">TOOLS & PLATFORM</span>
+              <div class="skill-cloud">
+                <span>Docker</span><span>n8n</span><span>Appsmith</span><span>REST API</span>
+                <span>Google Drive API</span><span>JWT</span><span>Cron Jobs</span><span>Git</span>
+              </div>
+            </div>
+
+            <div class="skill-group reveal">
+              <span class="skill-group-title">CERTIFICATIONS</span>
+              <div class="cert-list">
+                <div><i class="bi bi-patch-check"></i> Full Stack JavaScript — Hacktiv8</div>
+                <div><i class="bi bi-patch-check"></i> JavaScript Basic — HackerRank</div>
+                <div><i class="bi bi-patch-check"></i> SQL — HackerRank</div>
+                <div><i class="bi bi-patch-check"></i> CSS — HackerRank</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="container text-center">
+        <div class="section-kicker justify-content-center reveal">05 / CONTACT</div>
+        <h2 class="contact-title reveal">Have a problem worth<br><span>turning into software?</span></h2>
+        <p class="contact-copy reveal">
+          Let's talk. Worst case, we exchange one awkward email.<br>
+          Best case, we build something useful.
+        </p>
+
+        <a class="email-link reveal" href="mailto:hendrosinambela19@gmail.com">
+          hendrosinambela19@gmail.com
+          <i class="bi bi-arrow-up-right"></i>
+        </a>
+
+        <div class="social-row reveal">
+          <a href="https://github.com/henpasin" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> GitHub</a>
+          <a href="mailto:hendrosinambela19@gmail.com"><i class="bi bi-envelope"></i> Email</a>
+          <a href="tel:+6282261624561"><i class="bi bi-telephone"></i> Call</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <span>© <span id="year"></span> Hendro Paulus.</span>
+      <span>Designed with caffeine, curiosity & a suspicious amount of console.log().</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
